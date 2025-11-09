@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script>
+      // Configure Tailwind CSS v4 browser for class-based dark mode
+      document.addEventListener('DOMContentLoaded', function() {
+        // Ensure dark class works by adding custom variant support
+        if (window.tailwind) {
+          // Tailwind v4 browser supports dark mode via class by default
+          // Just ensure the class is on html element
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

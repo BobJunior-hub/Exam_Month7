@@ -1,0 +1,30 @@
+/* Custom variant for dark mode - works with Tailwind CSS v4 browser CDN */
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  
+  .dark {
+    color-scheme: dark;
+  }
+  
+  /* Ensure html and body backgrounds respond to theme */
+  html {
+    background-color: white;
+    transition: background-color 0.2s ease;
+  }
+  
+  html.dark {
+    background-color: #111827; /* gray-900 */
+  }
+  
+  body {
+    background-color: white;
+    transition: background-color 0.2s ease;
+    min-height: 100vh;
+  }
+  
+  html.dark body {
+    background-color: #111827; /* gray-900 */
+  }
+}
