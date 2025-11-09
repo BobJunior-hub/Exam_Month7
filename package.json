@@ -1,0 +1,13 @@
+{
+  "name": "imthom-main",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cd exam && npm run dev",
+    "build": "cd exam && npm run build",
+    "lint": "cd exam && npm run lint",
+    "preview": "cd exam && npm run preview",
+    "install": "cd exam && npm install"
+  }
+}
+
